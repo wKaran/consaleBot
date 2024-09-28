@@ -1,0 +1,30 @@
+{
+    "PlayStation 5 (slim)": {
+        "flipkart": "http://dl.flipkart.com/dl/sony-playstation5-console-slim-cfi-2008a01x-1024-gb/p/itm89489e2adcd2c?pid=GMCGZCYPAFYBUNAR&cmpid=product.share.pp&lid=LSTGMCGZCYPAFYBUNARLIR5LG",
+        "Amazon": "https://amzn.in/d/50kyD39",
+        "price": 49990,
+        "Curr_lowest": ""
+    },
+    "PlayStation 5 (Digital slim)": {
+        "flipkart": "https://www.flipkart.com/sony-playstation5-digital-slim-cfi-2008b01x-1024-gb/p/itma8e52b2e97a4a?pid=GMCGZCYP4NEKPPYM&lid=LSTGMCGZCYP4NEKPPYMASPKUN&marketplace=FLIPKART&q=PS5&store=4rr%2Fx1m%2Fogz&spotlightTagId=FkPickId_4rr%2Fx1m%2Fogz&srno=s_1_2&otracker=search&otracker1=search&fm=Search&iid=54e04998-c8d7-40dd-a904-4e7971333e98.GMCGZCYP4NEKPPYM.SEARCH&ppt=sp&ppn=sp&ssid=al6uk5zeeo0000001727377008967&qH=60a37aaf61b5fabd",
+        "Amazon": "https://amzn.in/d/0LqZEDm",
+        "price": 39990,
+        "Curr_lowest": ""
+    },
+    "Sony PS4 Slim": {
+        "Amazon": "https://amzn.in/d/6oeqEEn",
+        "price": 33990,
+        "Curr_lowest": ""
+    },
+    "Xbox series X": {
+        "flipkart": "https://www.flipkart.com/microsoft-xbox-series-x-1024-gb/p/itm5f4b119752568?pid=GMCFVPFCFDFGJHGG&lid=LSTGMCFVPFCFDFGJHGGTC13IN&marketplace=FLIPKART&q=xbox&store=4rr%2Fx1m&srno=s_1_4&otracker=search&otracker1=search&fm=organic&iid=6c7d0bed-1de3-4141-a372-232260bef7ad.GMCFVPFCFDFGJHGG.SEARCH&ppt=hp&ppn=homepage&ssid=8gqlkn67mo0000001727377709088&qH=3a3417f5f20a03a9",
+        "Amazon": "https://amzn.in/d/ewHBCM4",
+        "price": 3599,
+        "Curr_lowest": ""
+    },
+    "Xbox series S": {
+        "Amazon": "https://amzn.in/d/ajEFrWw",
+        "price": 39990,
+        "Curr_lowest": ""
+    }
+}
