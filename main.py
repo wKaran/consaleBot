@@ -77,6 +77,7 @@ def status(update: telegram.Update, context: telegram.ext.CallbackContext):
     for name, product in Products.items():
         message = f"{name} costs {product['price']}. Buy from '{product["Amazon"]}'"
         context.bot.send_message(chat_id=update.effective_chat.id, text= message)
+    update.message.reply_text('Need more consoles in the list. Contact @Karanxingh')
 
 def main():
 
