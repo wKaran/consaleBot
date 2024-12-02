@@ -18,6 +18,7 @@ We'll keep you in the loop whenever the prices of PS5 or Xbox Series X drop.
 Just sit back, relax, and let us do the hunting!
                               
 click /help to get helping menu.''')
+
     chat_id = update.message.chat_id
 
     if chat_id not in _users["Users"]:
@@ -52,7 +53,7 @@ def priceUpdate(context:telegram.ext.CallbackContext):
         price_whole = str(soup.find('span', {'class': 'a-price-whole'}).get_text())    # The whole part of the price
         price_whole = int(price_whole.replace(',','').rstrip('.'))
         
-        if price_whole < product["price"]:
+        if price_whole < product["price"] and price_whole > 15000:
             product["price"] = price_whole
             change = True
 
@@ -78,7 +79,7 @@ def status(update: telegram.Update, context: telegram.ext.CallbackContext):
         message = f"{name} costs {product['price']}. Buy from '{product["Amazon"]}'"
         context.bot.send_message(chat_id=update.effective_chat.id, text= message)
     update.message.reply_text('Need more consoles in the list. Contact @Karanxingh')
-
+''''''
 def main():
 
     updater = telegram.ext.Updater(Token, use_context=True)
@@ -89,7 +90,7 @@ def main():
     dispatch.add_handler(telegram.ext.CommandHandler('status', status))
 
     job_queue = updater.job_queue
-    job_queue.run_repeating(priceUpdate, interval=66, first=0)
+    job_queue.run_repeating(priceUpdate, interval=30, first=0)
 
     updater.start_polling()
     updater.idle()
